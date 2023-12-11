@@ -18,9 +18,6 @@ elif 18 <= heure < 22:
 else:
     moment_journee = "nuit"
 
-# Afficher le moment de la journée
-print(f"Nous sommes actuellement dans la {moment_journee}")
-
 # En fonction du moment de la journée, saluer en conséquence
 if moment_journee in ["matin", "après-midi"]:
     print("Bonjour")
